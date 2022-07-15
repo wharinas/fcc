@@ -1,0 +1,45 @@
+html
+{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main
+{
+	background:#eee;
+	padding:1em;
+	border-radius:4px;
+}
+
+h1
+{
+	text-align:center;
+}
+
+figure
+{
+	max-width:100%;
+	background:#fff;
+	padding:1em;
+}
+
+img
+{
+	display:block;
+	margin:0 auto;
+}
+
+#image
+{
+  max-width:100%;
+  height:auto;
+}
+
+#img-caption
+{
+	text-align:center;
+}
+
+#tribute-info
+{
+	text-align:center;
+}
