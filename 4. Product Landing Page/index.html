@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+	<link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+	<header id="header">
+		<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Logo website." id="header-img">
+		<nav id="nav-bar">
+			<a href="#feature" class="nav-link">Features</a>
+			<a href="#how-it-work" class="nav-link">How It Works</a>
+			<a href="#pricing" class="nav-link">Pricing</a>
+		</nav>
+	</header>
+
+	<main>
+		<form action="https://www.freecodecamp.com/email-submit" id="form">
+			<h1>Handcrafted, home-made masterpiece</h1>
+			<input type="email" name="email" placeholder="Enter your email." id="email">
+			<br>
+			<input type="submit" id="submit">GET STARTED</input>
+		</form>
+		<section id="feature">
+			<div class="row">
+				<div class="icon">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-bricks" viewBox="0 0 16 16">
+						<path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z"/>
+					</svg>
+				</div>
+				<div class="description">
+					<h2>Premium Materials</h2>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="icon">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+						<path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+					</svg>
+				</div>
+				<div class="description">
+					<h2>Fast Shipping</h2>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="icon">
+					<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-battery-full" viewBox="0 0 16 16">
+						<path d="M2 6h10v4H2V6z"/>
+						<path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h10zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z"/>
+					</svg>
+				</div>
+				<div class="description">
+					<h2>Quality Assurance</h2>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+				</div>
+			</div>
+		</section>
+		<section id="how-it-work">
+			<iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+		</section>
+		<section id="pricing">
+			<div class="box">
+				<p class="header">TENOR TROMBONE</p>
+				<div class="body">
+					<div class="price">600</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum dolor.</div>
+					<div>Lorem ipsum.</div>
+					<button type="button" class="button-select">SELECT</button>
+				</div>
+			</div>
+			<div class="box">
+				<p class="header">BASS TROMBONE</p>
+				<div class="body">
+					<div class="price">900</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum dolor.</div>
+					<div>Lorem ipsum.</div>
+					<button type="button" class="button-select">SELECT</button>
+				</div>
+			</div>
+			<div class="box">
+				<p class="header">VALVE TROMBONE</p>
+				<div class="body">
+					<div class="price">1,200</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum.</div>
+					<div>Lorem ipsum dolor.</div>
+					<div>Lorem ipsum.</div>
+					<button type="button" class="button-select">SELECT</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<section id="footer-content">
+			<div class="footer-links">
+				<a href="#privacy">Privacy</a>
+				<a href="#teams">Teams</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<div class="credit">
+				Copyright 2016, 
+				<a href="https://product-landing-page.freecodecamp.rocks">Original Trombones</a>			
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
