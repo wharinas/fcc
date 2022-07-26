@@ -1,0 +1,249 @@
+*, ::before, ::after
+{
+	padding:0;
+	margin:0;
+
+	font-family:'Lucida Sans', sans-serif;
+}
+
+html
+{
+	font-size:13px;
+	box-sizing:border-box;
+}
+
+body
+{
+	
+	color:#333;
+	background:#eee;
+}
+
+a
+{
+	text-decoration: none;
+	color:#555;
+}
+/* Header */
+#header-img
+{
+	width:300px;
+}
+
+header
+{
+	display:fix;
+	top:0;
+	left:0;
+	position: sticky;
+	box-sizing: border-box;
+	width:100%;
+	padding:1em 2em;
+	background:#ddd;
+}
+
+header nav
+{
+	float:right;
+	font-size:1.8rem;
+	display:flex;
+	flex-direction: row;
+}
+
+header nav .nav-link
+{
+	padding:0.5rem 6em;
+}
+/* Main */
+main
+{
+	width:1000px;
+	margin:0 auto;
+	margin-top:2em;
+}
+main form#form
+{
+	text-align:center;
+}
+
+main form#form h1
+{
+	font-size:2.5em;
+}
+
+main form#form input[type=email]
+{
+	margin:1em 0;
+	padding:0.5em 1em;
+	width:300px;
+	border:solid 1px #ccc;
+	border-radius:4px;
+}
+
+main form#form button
+{
+	font-weight:bold;
+	padding:0.5em 2em;
+	color:#000;
+	background:#fd0;
+	border:none;
+}
+/* Section: feature */
+section#feature
+{
+	padding:3em 0;
+	font-size:1.5rem;
+}
+
+section#feature .row
+{
+	display:flex;
+	flex-direction: row;
+	margin-bottom:4em;
+}
+
+section#feature .row .icon
+{
+	padding:0 4em;
+}
+
+section#feature .row .icon svg
+{
+	color:#ffa500;
+}
+
+main #video
+{
+	width:500px;
+	display:block;
+	margin:4em auto;
+}
+/* Sector: pricing */
+#pricing
+{
+	display: flex;
+	flex: row;
+	align-items:center;
+	justify-content: space-between;
+	font-size:1.6rem;
+}
+#pricing .box
+{
+	display:block;
+	border:solid 1px #333;
+	width:30%;
+	text-align:center;
+}
+
+#pricing .box .header
+{
+	padding:0.6em 0;
+	text-align:center;
+	font-weight:bold;
+	background:#ddd;
+}
+
+#pricing .box .body
+{
+	padding:0.5em;
+}
+
+#pricing .box .price
+{
+	font-weight:bold;
+	font-size:1.5em;
+	padding:1rem 0;
+}
+
+#pricing .box .price::before
+{
+	content:'$';
+}
+
+#pricing .button-select
+{
+	margin:1em 0;
+	padding:0.5em 1em;
+	font-size:1.6rem;
+	background:#fd0;
+	border:none;
+}
+/* Footer */
+footer
+{
+	background:#aaa;
+	padding:1em;
+	margin-top:3em;
+}
+
+footer #footer-content
+{
+	width:1000px;
+	margin:0 auto;
+}
+
+#footer-content .footer-links
+{
+	display:flex;
+	flex-direction: row;
+	justify-content:right;
+	padding:0.5em;
+}
+
+#footer-content .footer-links a
+{
+	padding:0 0.5em;
+}
+
+#footer-content .credit
+{
+	text-align:right;
+}
+
+
+@media only screen and (max-width:1000px)
+{
+	#header-img
+	{
+		display:block;
+		margin:0 auto;
+	}
+
+	header nav
+	{
+		float:none;
+		flex-direction: column;
+		text-align:center;
+	}
+
+	main
+	{
+		width:800px;
+	}
+
+	section#feature .row .icon
+	{
+		padding:0;
+	}
+
+	section#feature .row .icon svg
+	{
+		width:0;
+	}
+}
+
+/*
+
+header nav
+{
+	float:right;
+	font-size:1.8rem;
+	display:flex;
+	flex-direction: row;
+}
+
+header nav .nav-link
+{
+	padding:0.5rem 6em;
+}
+*/

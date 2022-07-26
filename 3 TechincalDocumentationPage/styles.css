@@ -1,0 +1,103 @@
+html
+{
+	font-family:arial;
+}
+
+body
+{
+	margin:0;
+	padding:0;
+}
+@media (max-width:800px)
+{
+	#navbar
+	{
+		width:100% !important;
+		min-height:auto !important;
+		position:relative !important;
+	}
+
+	body
+	{
+		flex-direction: row;
+	}
+
+	#main-doc
+	{
+		padding:0 !important;
+	}
+}
+/* navbar */
+#navbar
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:300px;
+	display:flex;
+	flex-direction: column;
+	border:solid 1px #aaa;
+	min-height:100vh;
+}
+
+#navbar header, #navbar a
+{
+	border:solid 1px #aaa;
+	width:100%;
+	box-sizing: border-box;
+}
+
+#navbar header
+{
+	font-size:1.5em;
+	font-weight:bold;
+	padding:0.5em;
+	text-align:center;
+}
+
+#navbar a
+{
+	color:#333;
+	text-decoration: none;
+	padding:0.5em;
+	margin-top:-1px;
+}
+
+#navbar a:hover
+{
+	background-color:#eee;
+}
+/* main-doc */
+#main-doc
+{
+	border:solid 1px #aaa;
+	padding-left:300px;
+	min-height:100vh;
+}
+#main-doc section
+{
+	padding:2em;
+}
+
+#main-doc header
+{
+	font-weight:bold;
+	font-size:1.5em;
+	padding:0.4em 0;
+}
+
+#main-doc code
+{
+	display:block;
+	padding:1em;
+	border-radius:4px;
+	background:#eee;
+	color:#777;
+	width:95%;
+	margin:	1em auto;
+}
+
+#main-doc li
+{
+	padding:0.2em;
+}
